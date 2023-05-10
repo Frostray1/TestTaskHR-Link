@@ -1,0 +1,38 @@
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* justify-content: center; */
+    height: 100vh;
+  }
+  
+  .login-page__title {
+    /* margin-top: 10px; */
+    padding-bottom: 100px;
+    float: left;
+  }
+  
+  .login-form {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-form__image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-form__label {
+    margin-bottom: 5px;
+  }
+  
+  .login-form__input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
