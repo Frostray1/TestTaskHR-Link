@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Страница входа</title>
-  <link rel="stylesheet" href="main.css">
-</head>
-<body>
-  <div class="login-page">
-    <h1 class="login-page__title">Войти в HR-Link</h1>
-    <div class="login-form">
-      <img class="login-form__image" src="image.png" alt="Login Image">
-      <label class="login-form__label" for="email">Email</label>
-      <input class="login-form__input" type="email" id="email" placeholder="Email">
-      <label class="login-form__label" for="password">Password</label>
-      <input class="login-form__input" type="password" id="password" placeholder="Password">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Страница входа</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="login-page">
+      <div class="login-form">
+        <h1 class="login-form__title">Войти в HR-Link</h1>
+        <img class="login-form__image" src="https://ic.wampi.ru/2023/05/11/imageed6ed01690f316d0.png" alt="Login Image" /> <!-- Загрузил фотографией чтобы удобней смотреть было -->
+        <label class="login-form__label" for="email">Email/Телефон/WhatsApp</label>
+        <input
+          class="login-form__input"
+          type="email"
+          id="email"
+          placeholder="Email"
+          value="mars@gmail.com"
+        />
+        <div class="login-form__password">
+          <label class="login-form__label" for="password">Пароль</label>
+          <a href="#" class="login-form__password-link">Не знаете пароль?</a>
+        </div>
+        <input
+          class="login-form__input"
+          type="password"
+          id="password"
+          placeholder="Password"
+          value="123456789"
+        />
+        <button class="login-form__button">Войти</button>
+        <div class="login-form__footer">Copyright © 2023 HR-Link</div>
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
